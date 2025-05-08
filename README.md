@@ -1,59 +1,105 @@
-# Anybank
+# 💸 AnyBank
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+AnyBank is a simple banking simulation built with Angular. It lets users perform 💰 deposits and 💸 withdrawals, with a 🧠 reactive balance and 📜 transaction history. It was built using modern Angular features and best practices.
+---
 
-## Development server
+## 👨‍💻 Technologies:
+<div style="display: inline_block"></br>
+  <img alt="Angular" src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+</div>
 
-To start a local development server, run:
+## ✨ Features
 
-```bash
-ng serve
+- 💵 Deposit & Withdrawal: Add or subtract funds, reflected immediately in the balance.
+
+- ⚡ Reactive Balance: Uses Angular Signals and Computed to keep the balance updated.
+
+- 📄 Transaction Statement: Each action is logged with a unique ID, amount, date, and type.
+
+- 🎨 Data Formatting: Leverages Angular Pipes like DatePipe and CurrencyPipe.
+
+- 🌍 Internationalization (i18n): Prepares the app for multiple languages and locales.
+
+- 🔁 Two-Way Binding: [(ngModel)] keeps your inputs synced with the UI.
+
+- 🆔 Unique IDs: Uses nanoid to generate unique transaction identifiers.
+
+## 🛠️ Angular Concepts Used:
+
+- 🚀 Angular CLI for scaffolding and managing the project.
+
+- 🧩 Component Communication via @Input() and @Output().
+
+- 🔗 Data Binding with ngModel.
+
+- 🌐 i18n support for localization.
+
+- 🧮 Signals and Computed for reactive state and auto-updated balance.
+
+- 🧪 Pipes for formatting dates, currency, and text.
+
+- 🔐 nanoid for lightweight, secure unique IDs.
+
+## ✅ Prerequisites: Install Node.js and Angular CLI
+
+```npm install -g @angular/cli```
+
+### 1. 📦 Clone the repo:
+
+```
+  git clone https://github.com/bernardosrodrigues12/anybank.git
+  cd anybank
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### 2. 📥 Install dependencies:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+  npm install
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### 3. ▶️ Run the app:
 
-```bash
-ng generate --help
+```
+  ng serve
 ```
 
-## Building
+### Open http://localhost:4200 in your browser 🚀
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## 🧑‍💻 How to Use:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+➕ Deposit: Enter a value and click "Deposit" – the balance increases 💹
 
-## Running unit tests
+➖ Withdraw: Enter a value and click "Withdraw" – the balance decreases 📉
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+📈 Statement: Track your transaction history with date, type, and amount
 
-```bash
-ng test
-```
+🔄 Reactive UI: All updates appear instantly thanks to Angular Signals
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+### 🤝 Contributing
+Contributions are welcome! 😊
+If you find bugs 🐛 or have suggestions 💡:
 
-```bash
-ng e2e
-```
+Fork the repo 🍴
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Create a new branch 🪄
 
-## Additional Resources
+Make your changes ✍️
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Submit a pull request 📬
+
+---
+
+This was made with Alura
+
+[Certificate](https://cursos.alura.com.br/user/be-srodrigues24/course/angular-19-aplicando-interacao-componentes-inputs-outputs/certificate)
+
+![image](https://github.com/user-attachments/assets/d7b03879-ca22-4af0-a032-a29ea9c305cf)
+
+
