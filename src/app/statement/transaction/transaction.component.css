@@ -1,0 +1,16 @@
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.value {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.date {
+  font-size: 0.8125rem;
+  font-weight: 400;
+}
